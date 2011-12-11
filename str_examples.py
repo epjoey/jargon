@@ -51,7 +51,11 @@ def main():
     screenWidth = 80
     boxWidth = 40
     padding = (screenWidth - boxWidth) / 2
-    print 
+    print 'Printing a box. This will help with your homework'
+    print ' ' * padding + '+' + '-' * (boxWidth - 2) + '+'
+    print ' ' * padding + '|' + ' ' * (boxWidth - 2) + '|'
+    print ' ' * padding + '|' + ' ' * (boxWidth - 2) + '|'
+    print ' ' * padding + '+' + '-' * (boxWidth - 2) + '+'
 
 
 
